@@ -18,7 +18,7 @@ public class Sat {
         }
         if (minute==60) {
             minute=0;
-            sati++; // 
+            sati++; //
         }
         if (sati==24) sati=0;
     }
