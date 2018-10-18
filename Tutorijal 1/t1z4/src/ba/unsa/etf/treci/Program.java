@@ -9,6 +9,9 @@ public class Program {
         p.upisiStudenta(s1);
         p.ispisiStudenta(s1);
         System.out.println(p);
+        p=null;
+        s=null;
+        s1=null;
         System.exit(0);
 
     }
